@@ -1,0 +1,406 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Be Vietnam Pro;
+    font-size: 1.6rem;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    height: 174px;
+    justify-content: space-between;
+    padding: 0px 140px 0px 70px;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+}
+
+nav p {
+    color: #242E52;
+    font-size: 1.3rem;
+    margin-right: 28px;
+}
+nav p:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    transition: 800ms;
+}
+
+nav p:nth-of-type(5) {
+    margin-right: 0px;
+}
+
+a {
+    align-items: center;
+    background-color: #F3603B;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    text-decoration: none;
+    width: 134px;
+}
+a:hover {
+    transform: scale(1.5);
+    transition: 800ms;
+}
+header img {
+    height: 23.74px;
+    width: 130px;
+}
+.hamburguesa {
+    display: none;
+}
+.box {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 142px;
+}
+.boxH1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: space-around;
+    padding-left: 35px;
+    width: 580px;
+    
+}
+.imagenPrincipal img{
+    width: 50vw;
+}
+.boxH2 {
+    display: flex;
+    flex-direction: column;
+    height: 433px;
+    width: 580px;
+}
+.boxH3 {
+    width: 580px;
+}
+h1 {
+    color: #232C50;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 66.47px;
+}
+.boxH2 h2 {
+    color: #232851;
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+h3 {
+    color: #323851;
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 580px;
+}
+
+.textH1 {
+    width: 350px;
+}
+
+.item {
+    color:  #B3B2B7;
+    font-weight: 500;
+    margin-bottom: 33.5px;
+    margin-left: 93px;
+}
+
+span {
+    align-items: center;
+    background-color: #F3603B;
+    border-radius: 30px;
+    color: #FFFFFF;
+    display: inline-flex;
+    flex-direction: column;
+    height: 43px;
+    justify-content: center;
+    margin-right: 23px;
+    width: 69px;
+}
+
+h2 {
+    color: #232851;
+    font-weight: 700;
+    font-size: 3.9rem;
+    text-align: center;
+}
+
+.boxProfiles {
+    display: flex;
+    justify-content: center
+}
+#h2Profiles {
+    margin-bottom: 94px;
+}
+.boxProfiles h3 {
+    position: relative;
+    width: auto;
+}
+
+.profiles {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    height: 219px;
+    justify-content: center;
+    text-align: center;
+    width: 33.33rem;
+}
+.profiles p {
+    color: #B9B9C1;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.profiles img {
+    height: 70px;
+    left: 40%;
+    position: relative;
+    top: -60px;
+    width: 70px;
+}
+.buttonProfile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+    margin-top: 57.5px;
+}
+
+.preFooter {
+    align-items: center;
+    background-color: #F3613C;
+    display: flex;
+    height: 224px;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.preFooter p:nth-of-type(1){
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 700;
+    height: 96px;
+    margin-left: 7vw;
+    width: 465px;
+}
+
+.preFooter a {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #F3603B;
+    height: 44px;
+    margin-right: 11vw;
+    width: 134px;
+}
+
+footer {
+    align-items: center;
+    background-color: #1E1E26;
+    color: #FFFFFF;
+    display: flex;
+    height: 247px;
+    justify-content: space-around;
+    position: relative;
+    width: 100vw;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    height: 171px;
+    justify-content: space-around;
+}
+
+i {
+    padding-right: 13px;
+}
+
+.optionsFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 28vw;
+}
+
+.formulario {
+    height: 140px;
+    width: 20vw;
+}
+
+input {
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    display: inline;
+    padding: 10px;
+}
+
+button {
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    height: 42px;
+    width: 63px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+}
+
+.optionsFooter p {
+    padding-bottom: 12px;
+}
+
+
+form {
+    display: inline;
+}
+
+.copy {
+    bottom: 52px;
+    color: #8C8C94;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: absolute;
+    right: 155px;
+}
+
+.logo2 {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 414px) { 
+    
+    header {
+        margin: 0px;
+        padding: 0px 10px;
+        width: 100vw;
+        /* justify-content: space-around; */
+    }
+    .hamburguesa {
+        display: inline;
+        width: 35px;
+        color: #232C50;
+    }
+    main {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        
+    }
+    .box {
+        flex-direction: column;
+        width: 100vw;
+    }
+    nav {
+        display: none;
+    }
+    header a {
+        display: none;
+    }
+    .imagenPrincipal img {
+        width: 100vw;
+    }
+
+    .boxH1 {
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+    }
+    .boxH2 {
+        width: 100vw;
+    }
+    h3 {
+        width: 100vw;
+    }
+    h1 {
+        font-size: 4.4rem;
+        line-height: normal;
+    }
+    .boxH3{
+        width: 100vw;
+    }
+    main .box:first-of-type{
+        flex-direction: column-reverse;
+    }
+    .items {
+        width: 100vw;
+    }
+    main img { 
+        width: 100vw;
+    }
+    .noMobile {
+        display: none;
+    }
+    
+    .preFooter {
+        align-items: center;
+        flex-direction: column;
+        height: 400px;
+        justify-content: space-around;
+        padding: 0px;
+        width: 100vw;
+    }
+    footer {
+        flex-direction: column-reverse;
+        height: 420px;
+        justify-content: space-around;
+        width: 100vw;
+    }
+    .preFooter p:nth-of-type(1) {
+        margin-left: 0px;
+        text-align: center;
+        width: 100vw;
+    }
+    .optionsFooter {
+        padding: 0px 70px;
+        width: 100vw;
+    }
+    .formulario {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    .preFooter a {
+        margin: 0px;
+    }
+    input {
+        margin-top: 35px;
+    }
+    .boxH2{
+        padding: 0px 10px;
+    }
+    .boxH3 {
+        padding: 0px 10px;
+    }
+    .boxH3 h3 {
+        background-color: rgb(255, 239, 234);
+
+    }
+    .copy {
+        bottom: 5px;
+        left: 0px;
+        text-align: center;
+        width: 100vw;
+    }
+}
