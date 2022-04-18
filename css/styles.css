@@ -326,6 +326,7 @@ form {
         align-items: center;
         text-align: center;
         width: 100vw;
+        padding-left: 0px;
     }
     .boxH2 {
         width: 100vw;
