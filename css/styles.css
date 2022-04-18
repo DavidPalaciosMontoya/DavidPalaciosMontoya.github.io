@@ -396,6 +396,7 @@ form {
     }
     .boxH3 h3 {
         background-color: rgb(255, 239, 234);
+        width: 98vw;
 
     }
     .copy {
@@ -403,5 +404,9 @@ form {
         left: 0px;
         text-align: center;
         width: 100vw;
+    }
+    span {
+        width: 15vw;
+        margin-right: 9vw;
     }
 }
